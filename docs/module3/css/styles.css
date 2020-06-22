@@ -1,0 +1,84 @@
+body{
+    font-size: 16px;
+    background-color:rgb(17, 240, 173);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#header-nav {
+    background-color: rgb(226, 59, 218);
+    border-radius: 0;
+    border: 0;
+    color: black;
+   
+}
+
+
+
+#main-content h1{
+text-align: center;
+}
+
+#nav-list{
+    margin: 10px 0px;
+    list-style: none;
+    background-color: white;
+}
+
+ a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+#nav-list a:hover{
+    background-color: rgb(17, 240, 173);
+}
+
+.navbar-brand{
+    height: fit-content;
+
+}
+
+.navbar-brand h1{
+    color: white;
+    text-decoration: none;
+}
+
+#header-nav .container{
+    margin-left: 0;
+}
+
+hr{
+    margin: 0px 0px;
+}
+
+@media (min-width: 768px){
+    .container .col-md-12{
+        width: 100%;
+         background-color: white;
+         margin-top: 50px;
+         padding: 20px 15px 20px 15px;
+         height: 1000px;
+        }
+}
+
+@media (min-width: 576px){
+    .container .col-sm-12{
+        width: 100%;
+         background-color: white;
+         margin-top: 50px;
+         padding: 20px 15px 20px 15px;
+         height: 1000px;
+        }
+}
+ 
+@media (max-width: 575px){
+    .container .col-xs-12{
+        width: 100%;
+         background-color: white;
+         margin-top: 50px;
+         padding: 20px 15px 20px 15px;
+         height: 1000px;
+        }
+}
